@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int x;
+    char y;
+    printf("enter character\n");
+    scanf("%d",y);
+    x=(y>='a')||(y<='z')||(y>='A')||(y<='Z');
+    printf("if 1 diplayed character is letter : %d",x);
+    return 0;
+}
